@@ -35,14 +35,9 @@ public class Challenge1 {
 	
 	public boolean containsValue(String value, List<String> list) {
 		
+		return !(list.stream().anyMatch(st ->  value ==  st ));
 		
-		if(list.stream().anyMatch(st ->  value ==  st )) { //Si se cumple que algún elemento de list es igual a value, retorno false
-			return false;
-		}else {
-			return true;
-		}
-		
-		
+	
 	}
 	
 	public static void main (String[] args) {
@@ -50,7 +45,7 @@ public class Challenge1 {
 		String value= prueba.typeString("Tipo B"); //Retorna string de acuerdo a parametro
 		System.out.print(value); //Imprimo value de "Tipo B"
 		List<String> list = Arrays.asList("Apple", "Orange", "Banana");//Array de prueba
-	    System.out.print(prueba.containsValue("Ore",list)); //Prueba de funcion containsValue
+	    System.out.print(prueba.containsValue("Banana",list)); //Prueba de funcion containsValue
 	}
 	
 		
