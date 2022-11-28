@@ -1,0 +1,232 @@
+.cajita{
+    background-color: antiquewhite;
+    width:min-content;
+}
+
+.cajitaFunciones{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bodyContainer{
+    width: 100%;
+   
+}
+
+/**
+About ME STarts
+*/
+.aboutMeContainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1rem;
+    max-width: 1024px;
+    margin: 10rem auto;
+    /* gap: 100px; */
+}
+.aboutMeImages{
+    display: grid;
+    grid-template-rows: auto auto ;
+    grid-auto-flow: column;
+    grid-template-columns: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.aboutMeImages img {
+    width: 60px;
+    height: auto;
+}
+
+
+.aboutMe{
+    /* width: 140ch; */
+    padding-left: 2rem;
+}
+
+.aboutMeTitle{
+    color:#5fb8b2;
+}
+.aboutMeKnowledge{
+    color:#5fb8b2;
+    font-weight: 700;
+}
+
+.aboutMeCV{
+    display: flex;
+    gap: 10px;
+    color:#5fb8b2;
+    font-weight: 700;
+}
+
+
+/**
+About ME Ends
+*/
+
+
+
+.navBar{
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: row;
+    gap: 1rem;
+    
+    align-items:center;
+    max-width: 80%;
+    text-align: center;
+  
+}
+.navBar h3{
+    font-weight: 750;
+}
+
+.navBarSectionContent{
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+}
+
+
+.navBarSection{
+    height: auto;
+    width: 80%;
+}
+
+
+.sendEmail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sendEmail img{
+    width: 300px;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.footerContainer{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    /* padding-left: 25%; */
+    background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+    margin-top: 10rem;
+
+    /* padding-left: 2rem; */
+}
+
+.footerContainer  div {
+    max-width: 20rem;
+}
+
+/* 
+.footerDescription{
+    max-width: 20rem
+
+} */
+
+.footerNavigation{
+    display:grid;
+}
+
+.footerContact{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    align-content: center;
+}
+
+.footerContactText{
+    align-items: center;
+}
+
+
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+
+.skillsContainer{
+    display: grid;
+    width:80%;
+    gap:40px;
+    margin-top: 5rem;
+}
+
+@media screen and (min-width:1024px){
+    .skillsContainer {
+        grid-template-rows: auto auto ;
+        grid-auto-flow: column;
+        grid-template-columns: 400px 400px;
+        margin-top: 0;
+        width:min-content;
+    }
+
+    .aboutMeContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        
+        
+    }
+
+    .aboutMeImages{
+        grid-template-rows: auto auto  auto;
+        gap: 90px;
+
+    }
+    .aboutMeImages img {
+        width: 100px;
+        height: auto;
+    }
+    .sendEmail img{
+        width: 800px;
+    }
+
+    .footerContainer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+    
+    .navBarSectionContent{
+        display: flex;
+        gap: 1rem;
+        width: 40%;
+        
+    }
+    
+    
+    .navBarSection{
+        height: auto;
+    
+    }
+    
+
+}
