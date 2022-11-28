@@ -1,4 +1,4 @@
-Esta pagina basada en un perfil profesional creada con NEXTJS, React, HTML y CSS.
+Esta pagina basada en un perfil profesional creada con NEXTJS, React, HTML y CSS usando tecnicas Responsive.
 
 El link donde se encuentra alojada es:
 
