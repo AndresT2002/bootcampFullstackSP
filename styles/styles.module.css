@@ -59,10 +59,14 @@ About ME STarts
 
 .aboutMeCV{
     display: flex;
+    align-items: center;
     gap: 10px;
     color:#5fb8b2;
     font-weight: 700;
+    width: min-content;
+    
 }
+
 
 
 /**

@@ -84,7 +84,7 @@ function AboutMe() {
 
             <div className={estilos.aboutMeImages}>
                 <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" width={100} height={100} />
-                <img src="https://assets.stickpng.com/images/58480979cef1014c0b5e4901.png" width={100} height={100} />
+                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width={100} height={100} />
                 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width={100} height={100} />
                 <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png" width={100} height={100} />
                 <img src="https://sujanbyanjankar.com.np/wp-content/uploads/2019/09/javascript.png" width={100} height={100} />
@@ -103,7 +103,6 @@ function NavBar() {
     return (
         <div className={estilos.navBar}>
             <h3>Andres Toloza</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Breadcrumb_left_separator.svg/431px-Breadcrumb_left_separator.svg.png" width={30} height={30} />
             <div className={estilos.navBarSectionContent}>
                 <a href="#" className={estilos.navBarSection}>Inicio</a>
                 <a href="#misHabilidades" className={estilos.navBarSection}>Mis habilidades</a>
@@ -128,6 +127,7 @@ function Footer() {
                     <h1>Andres Toloza</h1>
                     <p>Soy Andres Guillermo Toloza Guzman, proximamante programador Full Stack. Estoy presto para servirte con cualquier necesidad </p>
                     <p></p>
+                    <p>andres.toloza@udea.edu.co</p>
                     <p>©2022. Todos los derechos reservados.</p>
                 </div>
 
@@ -142,10 +142,10 @@ function Footer() {
                 <div id={"contact"} className={estilos.footerNavigation}>
                     <h1>Contacto</h1>
                     <div className={estilos.footerContact}>
-                        <a href="#" className={estilos.footerContactText} > <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width={15} height={15} /> LinkedIn</a>
-                        <a href="#misHabilidades" className={estilos.footerContactText}><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width={15} height={15} /> GitHub</a>
-                        <a href="#aboutMe" className={estilos.footerContactText}><img src="https://cdn-icons-png.flaticon.com/512/555/555417.png" width={15} height={15} /> Ingles C1</a>
-                        <a href="#contact" className={estilos.footerContactText}><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width={15} height={15} /> Correo</a>
+                        <a href="https://www.linkedin.com/in/andres-guillermo-toloza-guzmán-446644169/" className={estilos.footerContactText} > <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width={15} height={15} /> LinkedIn</a>
+                        <a href="https://github.com/AndresT2002" className={estilos.footerContactText}><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width={15} height={15} /> GitHub</a>
+                        <a href="https://www.efset.org/cert/ATmpYS" className={estilos.footerContactText}><img src="https://cdn-icons-png.flaticon.com/512/555/555417.png" width={15} height={15} /> Ingles C1</a>
+                        <a href="mailto:andres.toloza@udea.edu.co" className={estilos.footerContactText}><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width={15} height={15} /> Correo</a>
                     </div>
 
                 </div>
